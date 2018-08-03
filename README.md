@@ -17,3 +17,8 @@ condition and set the score of value 1
 # Create modal
 Create a new modal named Subscription modal and select checkbox of show only once and paste code 
 for subscription form from subscripion_form.html
+
+# Setting trigger
+We want to show the subscription form to the users if we total score for website is three so for 
+that we can add trigger to the Basic scoring modal and select scoring in and set score to 3, this 
+means that we want the form to be shown if score equals 3.
