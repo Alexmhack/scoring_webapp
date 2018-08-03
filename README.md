@@ -15,4 +15,5 @@ Any page condition and in the column for Set a score if select the same conditio
 condition and set the score of value 1
 
 # Create modal
-Create a new modal named 
+Create a new modal named Subscription modal and select checkbox of show only once and paste code 
+for subscription form from subscripion_form.html
