@@ -1,0 +1,13 @@
+/* YOUR CUSTOM STYLES */
+.hp-post-data {
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.list-comments img {
+    width: 50px;
+}
+.sidebar-posts .media img {
+    width: 100px;
+}
