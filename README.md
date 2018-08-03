@@ -22,3 +22,17 @@ for subscription form from subscripion_form.html
 We want to show the subscription form to the users if we total score for website is three so for 
 that we can add trigger to the Basic scoring modal and select scoring in and set score to 3, this 
 means that we want the form to be shown if score equals 3.
+
+# Pro scoring condition
+Users will be displayed a discount card once the pro score reaches 10. We set another condition 
+named Offer page condition and set its operator: contains and param: offer. The Offer Page 
+contain string "/offer" in its URL address, so the condition above will be fullfiled after 
+visitng the Offer Page. 
+
+# Create Pro score
+Make a new score named Pro scoring and to Start counting if add a trigger named and set offer page
+condition as trigger.To the set score if add Any page condition as a trigger and save and publish 
+changes.
+
+# Discount modal
+Create a new modal and add the discount_modal_card.html and save the modal, set the trigger to scoring if Pro scoring reaches 10 scores and save and publish changes. 
